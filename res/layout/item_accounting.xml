@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">  
+       <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:background="@color/btom_line" 
+        android:layout_centerHorizontal="true"
+        android:id="@+id/top_line"/>
+       <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_line">
+        <ImageView 
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/type_view"
+            android:background="@drawable/type_big_1"
+            android:layout_centerHorizontal="true"/> 
+            
+        <TextView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/type_view"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey"
+            android:textSize="14.0sp"
+            android:id="@+id/text_account"/>
+        
+         <TextView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/type_view"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/grey"
+            android:textSize="14.0sp"
+            android:id="@+id/text_into"/>
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

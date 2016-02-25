@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="@drawable/new_top_bg" >
+	    <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"
+           android:textSize="17sp"
+	       android:textColor="@color/white"
+	        android:id="@+id/top_text"/>
+	    <Button 
+	        android:layout_width="35dp"
+	        android:layout_height="35dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:id="@+id/finish_btn"
+	        android:background="@drawable/select_bg_unit_gou"
+	        android:layout_marginRight="15dp"/>    
+	   </RelativeLayout>
+	   
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    <EditText
+        android:id="@+id/notes_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20.0sp"
+        android:ems="10" >
+        </EditText>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btom_line" 
+        android:id="@+id/view_line"
+         android:layout_below="@+id/notes_title"/> 
+	   <EditText
+	     android:gravity="top"
+	    android:id="@+id/notes_content" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         android:textSize="20.0sp"
+        android:layout_above="@+id/notes_black"
+        android:layout_below="@+id/view_line"
+        android:ems="10" />
+	   
+	   <Button
+	     android:id="@+id/notes_black" 
+	     android:layout_width="35dp"
+        android:layout_height="35dp" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/black_detail_tool_back_enabled"/>
+	   
+	   <Button
+	     android:id="@+id/notes_time" 
+	     android:layout_width="35dp"
+        android:layout_height="35dp" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/black_detail_tool_time"/>
+	 </RelativeLayout>
+</LinearLayout>
