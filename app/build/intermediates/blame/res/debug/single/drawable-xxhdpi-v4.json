@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tab_guide_round_disabled.png",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\drawable-xxhdpi\\tab_guide_round_disabled.png"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tab_guide_round_enabled.png",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\drawable-xxhdpi\\tab_guide_round_enabled.png"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\tab_selected_pressed_holo.png",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\drawable-xxhdpi\\tab_selected_pressed_holo.png"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_round_rectangle.png",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\drawable-xxhdpi\\bg_round_rectangle.png"
+    }
+]

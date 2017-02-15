@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_account.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_add_account.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_notes_info.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_notes_info.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_notes.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_add_notes.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fragment_two.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_fragment_two.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\notes_item.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\notes_item.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_accoun.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\item_accoun.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fragment_one.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_fragment_one.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_gridview.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\item_gridview.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_accounting.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\item_accounting.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_seclect_account.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_seclect_account.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fragment_three.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_fragment_three.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main_top_bottom_tab.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activity_main_top_bottom_tab.xml"
+    },
+    {
+        "merged": "F:\\git_res\\zdProjakct1\\app\\build\\intermediates\\res\\merged\\release\\layout\\activty_transfer_accounts.xml",
+        "source": "F:\\git_res\\zdProjakct1\\app\\src\\main\\res\\layout\\activty_transfer_accounts.xml"
+    }
+]

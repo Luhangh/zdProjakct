@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:background="@drawable/new_top_bg" >
+	    <TextView 
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+           android:layout_centerVertical="true"
+           android:layout_centerHorizontal="true"
+           android:textSize="17sp"
+	       android:textColor="@color/white"
+	        android:id="@+id/top_text"/>
+	        
+	   </RelativeLayout>
+	   
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	    <TextView
+        android:id="@+id/textview_notes_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+         android:textSize="20.0sp"
+         android:gravity="center"
+        android:ems="10" >
+        </TextView>
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btom_line" 
+        android:id="@+id/view_line"
+         android:layout_below="@+id/textview_notes_title"/> 
+	   <TextView
+	     android:gravity="top"
+	    android:id="@+id/textview_notes_content" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/view_line"
+         android:textSize="20.0sp"
+        android:ems="10" />
+	 </RelativeLayout>
+</LinearLayout>
