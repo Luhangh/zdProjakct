@@ -47,19 +47,18 @@ public class LoginActivity extends Activity implements OnClickListener {
                             && pws.getText().toString().equals
                             ("123456")) {
                         Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                        intent = new Intent(this, MainActivity.class);
-                        startActivity(intent);
                     }
+
                 }
+                intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
 
                 break;
 
             case R.id.bottom_login_btn:
-
                 intent = new Intent(this, WebViewActivity.class);
                 intent.putExtra("url", "https://www.baidu.com/");
                 startActivity(intent);
-
                 break;
             default:
                 break;
