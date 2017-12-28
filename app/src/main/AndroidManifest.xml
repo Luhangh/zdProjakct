@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ludvk.activity">
+
+
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+ <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/><!--  在SDCard中创建与删除文件权限 -->
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /><!--  往SDCard写入数据权限 -->）
+    <application
+        android:name="com.ludvk.app.ZDSoftApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+          android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity
+            android:name="com.ludvk.activity.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity 
+             android:name="com.ludvk.activity.MainActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+         
+           <activity 
+             android:name="com.ludvk.activity.AddAccountActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+             <activity 
+             android:name="com.ludvk.activity.WebViewActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+           
+             <activity 
+             android:name="com.ludvk.activity.TransferAccountsActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+             
+             <activity 
+             android:name="com.ludvk.activity.AddNotesActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+              <activity 
+             android:name="com.ludvk.activity.custominfoActivity" 
+             android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait"/>
+             
+              <activity
+            android:name="com.ludvk.activity.SelectAccountActivty"
+            android:theme="@style/MyDialogStyleBottom">
+        </activity>
+        
+                <activity
+            android:name="com.ludvk.activity.NotesInfoActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+             android:screenOrientation="portrait">
+        </activity>
+             
+              
+    </application>
+
+</manifest>
